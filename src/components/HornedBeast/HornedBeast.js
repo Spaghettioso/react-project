@@ -16,6 +16,7 @@ export default function HornedBeast({title, imgUrl, description}) {
         <span className='smileyFace' onClick={handleFav}>
         ☺️
         </span>
+        <span>{fav}</span>
     </div>
   )
 }

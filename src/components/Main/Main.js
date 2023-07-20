@@ -5,21 +5,7 @@ import data from '../data.json'
 export default function Main() {
   return (
     <div>
-        {/* <HornedBeast
-        title="Cute Dragon"
-
-        imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2RIY9nyvLooFRDipT6g-RnqKi2DESvtrkag54CsM&s"
         
-        description="A cute red cartoon dragon"
-        />
-        <HornedBeast 
-        title="Horned Lizard"
-
-        imgUrl="https://cdn.dribbble.com/users/20442/screenshots/1966856/horny-toad.png"
-
-        description="A cartoon horned lizard"
-        
-        /> */}
 
       <HornedBeast title={data[0].title} imgUrl={data[0].image_url} description={data[0].description} />
       <HornedBeast title={data[1].title} imgUrl={data[1].image_url} description={data[1].description} />
